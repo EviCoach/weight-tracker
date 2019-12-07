@@ -35,3 +35,6 @@ label{display: block}
 input{
     width: 100%;
 }
+.form-elements{
+    margin: 5% auto;
+}
