@@ -6,7 +6,7 @@
     font-family: 'Fira Sans', sans-serif;
 }
 .container{
-    width: 80%;
+    width: 85%;
     background-color: whitesmoke;
     margin: 0 auto;
 }
@@ -16,8 +16,9 @@
     text-align: center;
 }
 .form-intro h3{
+    text-align: justify;
     margin: 0 auto;
-    color: grey;
+    color: darkslategray;
 }
 label{
     display: block;
