@@ -11,3 +11,7 @@
     color: grey;
     text-align: center;
 }
+.form-intro h3{
+    color: grey;
+}
+label{display: block}
