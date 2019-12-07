@@ -8,11 +8,12 @@
 .container{
     width: 80%;
     background-color: whitesmoke;
+    background-color: darkslategray;
     margin: 0 auto;
 }
 .app-title{
     padding: 10%;
-    color: darkslategray;
+    color: whitesmoke;
     text-align: center;
 }
 .form-intro h3{
@@ -21,7 +22,7 @@
 }
 label{
     display: block;
-    color: darkslategray;
+    color: whitesmoke;
 }
 .form-wrapper{
     width: 90%;
