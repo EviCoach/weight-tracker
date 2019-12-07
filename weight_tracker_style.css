@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    background-color: whitesmoke;
+    margin: 0 auto;
+}
