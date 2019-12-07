@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Fira Sans', sans-serif;
 }
 .container{
     width: 80%;
@@ -8,14 +11,27 @@
     margin: 0 auto;
 }
 .app-title{
+    padding: 10%;
     color: grey;
     text-align: center;
 }
 .form-intro h3{
+    margin: 0 auto;
     color: grey;
 }
 label{display: block}
 .form-wrapper{
     width: 90%;
     margin: 0 auto;
+}
+.track-button{
+    margin: 20px 5px;
+    padding: 3px 5px;
+    border: none;
+    border-radius: 3px;
+    background-color: crimson;
+    color: whitesmoke;
+}
+input{
+    width: 100%;
 }
