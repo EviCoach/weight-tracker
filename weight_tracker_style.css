@@ -15,3 +15,7 @@
     color: grey;
 }
 label{display: block}
+.form-wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
