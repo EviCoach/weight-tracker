@@ -1,14 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
 
+
 *{
     margin: 0;
     padding: 0;
     font-family: 'Fira Sans', sans-serif;
 }
+        .form-elements{
+            margin: 5% auto;
+        }
+
+
+
+
+::placeholder{
+    padding-left: 20px;
+}
+
 .container{
     width: 85%;
     background-color: whitesmoke;
-    margin: 0 auto;
+    margin: 5% auto;
+    box-shadow: 0 0 8px 2px grey;
 }
 .app-title{
     padding: 10%;
@@ -16,7 +29,7 @@
     text-align: center;
 }
 .form-intro h3{
-    text-align: justify;
+    text-align: center;
     margin: 0 auto;
     color: darkslategray;
 }
@@ -33,16 +46,45 @@ input{
     width: 100%;
 }
 .track-button{
-   margin: 20px 0;
-padding: 3px 5px;
-border: none;
-border-radius: 3px;
-background-color: crimson;
-color: whitesmoke;
+    margin: 20px auto;
+    padding: 3px 5px;
+    border: none;
+    border-radius: 3px;
+    background-color: crimson;
+    color: whitesmoke;
                 }
-.form-elements{
-    margin: 5% auto;
-}
 .track-info{
+    margin: 2px auto;
+    border: 1px solid #eee;
+    box-shadow: 0 2px  2px #ccc;
+    padding: 10px;
     text-align: justify;
+}
+
+/* Media queries for responsiveness*/
+@media screen and (min-width:800px){
+        .form-elements{
+            margin: 2% auto;
+            width: 70%;
+    }
+
+    input.track-button{
+        
+        width: 70%;
+        text-align: center;
+        margin: 20px auto;
+        padding: 3px 5px;
+        border: none;
+        border-radius: 3px;
+        background-color: crimson;
+        color: whitesmoke;
+   }
+   input{
+       width: 70%;
+   }
+   .form-wrapper{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
 }
